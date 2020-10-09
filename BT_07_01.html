@@ -3,16 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign in</title>
   </head>
-  <style></style>
+  <style>
+      .content {
+      width: 100%;
+      border: 1px solid #ccf6c8;
+      background-color: #ccf6c8;
+      text-align: center;
+      font-weight: bolder;
+      padding: 20px;
+      font-size: 30px;
+    }
+  </style>
   <body>
-    <form action="" method="GET">
-      Name: <input type="text" value="ten" />
-      <br />
-      Class: <input type="text" value="lop" />
-      <br />
-      <input type="submit" value="Submit" />
-    </form>
+    <div class="all">
+      <div class="content">Đăng kí người dùng</div>
+      <hr />
+      <div class="container">
+        <form action=""></form>
+        <div>
+          <div>
+            <label for="">Tên đăng nhập:</label>
+            <input type="text" name="sgname" />
+          </div>
+          <div>
+            <label for=""> Mật khẩu:</label>
+            <input type="password" name="pass" />
+          </div>
+          <div><label for="">
+            <i>(Tối thiểu 5 ký tự)</i>
+          </label></div>
+          <div>
+            <label for=""> Gõ lại mật khẩu:</label>
+            <input type="password" name="rtpass" />
+          </div>
+        </div>
+        <hr />
+        <div>
+          <div>
+            <div><label for="">
+              Nhập thông tin để lấy lại mật khẩu khi quên </label
+              >
+             </div>
+              <div>
+                <div> <label for="">Câu hỏi bí mật:</label>
+                  <select name="question" id="">
+                    <option value="">[Chọn câu hỏi]</option>
+                    <option value="hobbies">Sở thích của bạn là gì?</option>
+                    <option value="fvfood">Món ăn mà bạn yêu thích?</option>
+                    <option value="school">Tên trường tiểu học của bạn?</option>
+                  </select></div>
+            </div>
+            <div>
+              <label for="">Trả lời:</label> <input type="text" name="answer" />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <div>
+            <label for="">Thông tin người dùng Tên và chữ lót:</label>
+            <input type="text" name="lsname" />
+          </div>
+          <div>
+            <label for=""> Họ:</label> <input type="text" name="fsname" />
+          </div>
+          <div>
+            <label for="">Ngày sinh:</label>
+            <input type="number" min="1" max="12" step="1" />
+            , <input type="number" value="day" min="1" max="31" step="1" /> ,
+            <input type="number" value="year" min="1900" max="3000" step="10" />
+            <label for="">(Month, DD, YYYY)</label>
+          </div>
+        </div>
+          <div>
+            <label for=""> Giới tính:</label>
+            <input
+              type="radio"
+              value="male"
+              checked="checked"
+              name="male"
+              id="nam"
+            /><label for="" id="male"> Male</label>
+            <input type="radio" value="female" name="female" id="nu" /><label
+              for=""
+              id="fmale"
+              >Female</label
+            >
+          </div>
+          <div>
+            <div> <label for="">Nghề nghiệp liên quan:</label></div>
+            <select name="jobs" id="">
+              <option value="">[Chọn ngành nghề]</option>
+              <option value="Ks">Kỹ sư</option>
+              <option value="gv">Giáo viên</option>
+              <option value="bs">Bác sĩ</option>
+              <option value="kt">Kế toán</option>
+            </select>
+          </div>
+          <hr />
+          <div>
+            <label for=""> Sở thích( tùy chọn)</label>
+            <div class="wrap-content-4">
+              <div>
+                <input type="checkbox" /><label for="">Âm nhạc</label>
+                <input type="checkbox" /><label for="">Du lịch</label>
+              </div>
+              <div>
+                <input type="checkbox" /><label for="">Nghiên cứu</label>
+                <input type="checkbox" /><label for=""> Kinh doanh</label>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div><input type="submit" /> <input type="reset" /></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

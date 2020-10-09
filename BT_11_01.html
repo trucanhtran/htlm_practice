@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title></head
+  >`
+  <script>
+    var dmmaytinh = {
+      SanPhams: [
+        {
+          MaSP: "sp_1xxx",
+          TenSP: "DELL Inspiron 14NR",
+          SoLuong: 100,
+          DonGia: 140000,
+        },
+      ],
+      MaDM: "DM1",
+      TenDM: "Hàng máy tính",
+    };
+    function xulyHienThi() {
+      var str = "Mã Danh Mục:" + dmmaytinh + "<br/>";
+      str += "Tên Danh Mục:" + dmMayTinh.TenDM + "<br/>";
+      var table = "<table border='1'>";
+      var header =
+        "<tr><td>Mã</td><td>Tên</td>" +
+        sp.TenSP +
+        "</td><td>" +
+        sp.SoLuong +
+        "</td><td>" +
+        sp.DonGia +
+        "</td></tr>";
+      table += tr;
+    }
+    table += "</table>";
+    var div = document.getElementById("infor");
+    div.innerHTML = table;
+  </script>
+  <body>
+    <input type="button" value="Hiển Thị " />
+    <div id="infor"></div>
+  </body>
+</html>
