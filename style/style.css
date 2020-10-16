@@ -1,0 +1,27 @@
+.left_content {
+    background-color: #F8EFD4;
+}
+
+a {
+    display: block;
+}
+
+.center_content {
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+}
+
+.right_content {
+    background-color: burlywood;
+}
+
+h2 {
+    color: #F39233;
+}
+
+.Menu {
+    float: left;
+}
