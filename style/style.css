@@ -16,8 +16,8 @@ table {
 a {
 	display: block;
 }
-.center_content {
-	display: flex;
+.oneil_img {
+	float: right;
 }
 h3 {
 	text-align: center;
@@ -34,4 +34,14 @@ h2 {
 .Menu h2 {
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+.cas_img {
+	float: right;
+}
+
+tr {
+	vertical-align: top;
+}
+.adam_img {
+	float: right;
 }
