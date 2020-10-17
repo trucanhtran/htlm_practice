@@ -1,33 +1,37 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
+	box-sizing: border-box;
+	margin: 0;
 }
 table {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .left_content {
-  background-color: #f8efd4;
-  vertical-align: top;
-  width: 20%;
+	background-color: #f8efd4;
+	vertical-align: top;
+	width: 20%;
 }
 a {
-  display: block;
+	display: block;
 }
 .center_content {
-  display: flex;
+	display: flex;
 }
 h3 {
-  text-align: center;
+	text-align: center;
 }
 .right_content {
-  background-color: burlywood;
+	background-color: burlywood;
 }
 h2 {
-  color: #f39233;
+	color: #f39233;
 }
 .Menu {
-  float: left;
+	float: left;
+}
+.Menu h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
