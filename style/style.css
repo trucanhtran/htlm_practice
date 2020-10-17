@@ -1,27 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .left_content {
-    background-color: #F8EFD4;
+  background-color: #f8efd4;
+  vertical-align: top;
+  width: 20%;
 }
-
 a {
-    display: block;
+  display: block;
 }
-
 .center_content {
-    display: flex;
+  display: flex;
 }
-
 h3 {
-    text-align: center;
+  text-align: center;
 }
-
 .right_content {
-    background-color: burlywood;
+  background-color: burlywood;
 }
-
 h2 {
-    color: #F39233;
+  color: #f39233;
 }
-
 .Menu {
-    float: left;
+  float: left;
 }
